@@ -21,6 +21,18 @@ body {
   background-color: #fff; 
 }
 
+input {
+  font-style: italic;
+  font-size: larger;
+  margin: 0cm;
+  border-width: 2px;
+  border-radius: 4px;
+  border-style: dotted;
+  border-color: #E91C1C;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
 footer, 
 nav {
  display: block; 
@@ -149,7 +161,7 @@ section {
  HOME SECTION STYLES
 ========================================*/ 
 #home { 
-  background: url(../OnePage/bnb_1.webp) no-repeat 50% 50%; 
+  background-image: url(../OnePage/bnb_1.webp) no-repeat 50% 50%; 
   background-attachment: fixed; 
   -webkit-background-size: cover; 
   -moz-background-size: cover;
